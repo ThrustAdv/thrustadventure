@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    
 }
 
 .header{
@@ -66,7 +67,7 @@ nav img{
 
 }
 .text-box h1{
-    font-size: 35px;
+    font-size: 40px;
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -83,6 +84,7 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;    
+    margin-top: 10vh;
 }
 .visit-btn :hover{
     border: 1px solid #838383;
@@ -253,7 +255,48 @@ form .user-details .input-box{
 }
 .whatsapp img {
     margin-top: 50px;
-    height: 350px;
+    margin-bottom: 15vh;
+    height: 40vh;
     width: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.footer_section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #f0c040;
 }
